@@ -71,6 +71,7 @@ function cutCircle(params) {
 
 function loop(){
 
+
     ctx.clearRect(0,0,canvasWidth, canvasHeight);
 
     circles.forEach(function (circle, i){
@@ -154,7 +155,7 @@ window.onload = function(){
     //            make it roll on the inner border.
     
 };
-
+console.log(new Date());
 
 
 
