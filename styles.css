@@ -17,10 +17,9 @@ canvas{
 }
 .container{
 
-
     overflow: hidden;
     margin-top: 20px;
-    min-width: 800px;
+    min-width: 950px;
 
     height: 440px;
     width: 70%;
