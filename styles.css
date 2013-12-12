@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+canvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.content{
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+
+}
+.container{
+
+
+    overflow: hidden;
+    margin-top: 20px;
+    min-width: 800px;
+
+    height: 440px;
+    width: 70%;
+    background: #fff;
+    border-radius: 14px;
+    border: 2px solid #108ad0;
+    position: absolute;
+    top: 0px;
+    left: 15%;
+    z-index: 1;
+    margin-right: 330px;
+    
+}
+img{
+    float: left
+
+}
+.article{
+
+    float: left;
+    padding: 20px;
+    width: 600px;
+    text-align: justify;
+
+}
+ul{
+    float: right;
+    font-style:italic;
+}
+li{
+    color: teal;
+    font-size:small;
+    list-style:none;
+}
